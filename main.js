@@ -17,7 +17,7 @@ recognition.onresult = function (event) {
   Textbox.innerHTML = Content;
   console.log(Content);
 
-  if (Content == "tire minha selfie") {
+  if (Content == "take my selfie") {
     console.log("tirando selfie --- ");
     speak();
   }
